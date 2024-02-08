@@ -1,0 +1,13 @@
+.App {
+  border: 2px dashed red;
+  width: 800px;
+  margin: 30px auto;
+  background-color: palegreen;
+  border-radius: 4px;
+}
+
+.App h1 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
