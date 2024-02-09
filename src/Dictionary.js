@@ -17,6 +17,9 @@ export default function Dictionary() {
           <input type="submit" value="Search" className="inputButton" />
         </span>
       </form>
+      <div className="suggestions">
+        suggestions: sunset, cartoon, library, orange, etc.
+      </div>
     </div>
   );
 }
