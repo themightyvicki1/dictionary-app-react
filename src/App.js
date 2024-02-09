@@ -11,7 +11,7 @@ function App() {
         </small>
       </h1>
       <main>
-        <Dictionary />
+        <Dictionary defaultWord="sunset" />
       </main>
     </div>
   );
