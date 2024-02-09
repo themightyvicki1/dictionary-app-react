@@ -9,7 +9,7 @@ export default function Dictionary(props) {
   let [results, setResults] = useState(null);
   /*this function handles getting the response from the axios call*/
   function handleDictionary(response) {
-    //console.log(response.data);
+    console.log(response.data);
     setResults(response.data);
   }
 
