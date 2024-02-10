@@ -9,7 +9,7 @@ export default function Dictionary(props) {
   let [results, setResults] = useState(null);
   /*this function handles getting the response from the axios call*/
   function handleDictionary(response) {
-    console.log(response.data);
+    //console.log(response.data);
     setResults(response.data);
   }
 
@@ -58,7 +58,7 @@ export default function Dictionary(props) {
         <div className="suggestions">
           suggestions: sunset, cartoon, library, orange, etc.
         </div>
-        <div className="searching">searching for...{word}</div>
+        {/*<div className="searching">searching for...{word}</div>*/}
         {/*send definition results to new component to be displayed*/}
         {/*component name, property name, property value which is the state set above*/}
         <DisplayDefinitionResults results={results} />
