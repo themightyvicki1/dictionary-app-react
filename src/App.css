@@ -5,10 +5,19 @@
   background-color: palegreen;
   border-radius: 4px;
   font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 
 .App h1 {
   font-size: 36px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.App footer {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }

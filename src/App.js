@@ -13,6 +13,23 @@ function App() {
       <main>
         <Dictionary defaultWord="sunset" />
       </main>
+      <footer>
+        <a
+          href="https://github.com/themightyvicki1/dictionary-app-react"
+          target="_blank"
+          rel="noreferrer"
+          Open
+          source
+          coded
+          by
+        >
+          Open sourced coded by
+        </a>{" "}
+        Victoria Greer{" "}
+        <small>
+          <i className="fa-regular fa-heart"></i>
+        </small>
+      </footer>
     </div>
   );
 }
