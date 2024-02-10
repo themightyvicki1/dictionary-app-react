@@ -1,0 +1,19 @@
+.DisplayDefinitionResults {
+  padding: 10px 10px;
+}
+.DisplayDefinitionResults .wordDisplayed {
+  font-size: 28px;
+}
+
+.DisplayDefinitionResults .phoneticDisplayed {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.DisplayDefinitionResults section {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: palegreen;
+}
