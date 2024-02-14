@@ -1,19 +1,28 @@
 .DisplayDefinitionResults {
-  padding: 10px 10px;
+  padding: 10px;
 }
+
+.DisplayDefinitionResults .topSection {
+  text-align: center;
+}
+
 .DisplayDefinitionResults .wordDisplayed {
   font-size: 28px;
 }
 
 .DisplayDefinitionResults .phoneticDisplayed {
   font-size: 22px;
+  line-height: 2;
   font-style: italic;
 }
 
 .DisplayDefinitionResults section {
-  border: 2px solid black;
-  padding: 20px;
+  /*border: 2px solid black;*/
+  padding: 5px;
   border-radius: 4px;
-  margin-bottom: 20px;
-  background-color: palegreen;
+  /*background-color: palegreen;*/
+}
+
+.DisplayDefinitionResults .holdingMeanings {
+  padding: 10px;
 }

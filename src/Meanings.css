@@ -1,0 +1,28 @@
+/*target the container holding each full definition*/
+.Meanings .meaningsContainer {
+  border: 2px solid #5585b5;
+  padding: 20px 20px;
+  border-radius: 6px;
+  /*background-color: palegoldenrod;*/
+  background-color: #bbe4e9;
+}
+
+/*target part of speech */
+.Meanings .displayPartOfSpeech {
+  font-size: 18px;
+}
+
+/*target the example*/
+.Meanings .displayExample {
+  opacity: 0.8;
+}
+
+/*target definitions*/
+.Meanings .displayDefinition {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Meanings span {
+  font-weight: 400;
+}

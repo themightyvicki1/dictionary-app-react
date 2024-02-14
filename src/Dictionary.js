@@ -41,23 +41,26 @@ export default function Dictionary(props) {
     return (
       /*form with search bar and enter button*/
       <div className="Dictionary">
-        <form onSubmit={handleSubmit}>
-          <span className="inputSpan">
-            <input
-              type="search"
-              placeholder="Enter a word..."
-              autoFocus={true}
-              className="inputSearch"
-              onChange={handleWordChange}
-            />
-          </span>
-          <span>
-            <input type="submit" value="Search" className="inputButton" />
-          </span>
-        </form>
-        <div className="suggestions">
-          suggestions: sunset, cartoon, library, orange, etc.
-        </div>
+        <section>
+          <h3>What word do you want to search for?</h3>
+          <form onSubmit={handleSubmit}>
+            <span className="inputSpan">
+              <input
+                type="search"
+                placeholder="Enter a word..."
+                autoFocus={true}
+                className="inputSearch"
+                onChange={handleWordChange}
+              />
+            </span>
+            <span>
+              <input type="submit" value="Search" className="inputButton" />
+            </span>
+          </form>
+          <div className="suggestions">
+            suggestions: sunset, cartoon, library, orange, etc.
+          </div>
+        </section>
         {/*<div className="searching">searching for...{word}</div>*/}
         {/*send definition results to new component to be displayed*/}
         {/*component name, property name, property value which is the state set above*/}
