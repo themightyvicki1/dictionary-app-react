@@ -50,3 +50,8 @@
   text-align: left;
   margin-bottom: 10px;
 }
+
+.Dictionary .photosContainer {
+  margin: 12px 12px;
+  padding: 0 13px;
+}
