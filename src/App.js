@@ -20,12 +20,8 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Open sourced coded by
-          </a>{" "}
-          Victoria Greer{" "}
-          <small>
-            <i className="fa-regular fa-heart"></i>
-          </small>
+            Open sourced coded by Victoria Greer
+          </a>
         </footer>
       </div>
     </div>
